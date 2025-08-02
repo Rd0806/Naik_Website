@@ -1,0 +1,42 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d35400" />
+      <stop offset="100%" stop-color="#8d4925" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Decorative elements -->
+  <g fill="#ffffff" fill-opacity="0.1">
+    <!-- Spice-inspired patterns -->
+    <circle cx="200" cy="150" r="80" />
+    <circle cx="1000" cy="450" r="100" />
+    <circle cx="600" cy="100" r="50" />
+    <circle cx="400" cy="500" r="70" />
+    <circle cx="900" cy="200" r="60" />
+    
+    <!-- Mandala-inspired elements -->
+    <circle cx="600" cy="300" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+    <circle cx="600" cy="300" r="120" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+    <circle cx="600" cy="300" r="90" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+    <circle cx="600" cy="300" r="60" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+    <circle cx="600" cy="300" r="30" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" />
+  </g>
+  
+  <!-- Food silhouettes -->
+  <g fill="#ffffff" fill-opacity="0.15">
+    <!-- Spice jar silhouette -->
+    <path d="M300,350 L330,350 L340,370 L340,450 L330,470 L300,470 L290,450 L290,370 Z" />
+    
+    <!-- Bowl silhouette -->
+    <path d="M700,400 C750,400 800,420 800,450 C800,480 750,500 700,500 C650,500 600,480 600,450 C600,420 650,400 700,400 Z" />
+    
+    <!-- Mortar and pestle silhouette -->
+    <path d="M450,400 C480,400 500,410 500,430 C500,450 480,460 450,460 C420,460 400,450 400,430 C400,410 420,400 450,400 Z" />
+    <path d="M470,380 L480,400 L460,410 L450,390 Z" />
+  </g>
+</svg>

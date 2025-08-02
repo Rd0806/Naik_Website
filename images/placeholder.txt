@@ -1,0 +1,9 @@
+Note: This is a placeholder file for the images directory.
+
+For a complete website, you should replace the following placeholder images with actual high-quality photos:
+
+1. images/hero-bg.jpg - A high-quality image of the store or Indian food/spices for the hero section
+2. images/store-front.jpg - An image of the actual store for the About section
+3. images/products/*.jpg - Images for each product (chakli.jpg, chivda.jpg, mathri.jpg, etc.)
+
+The SVG pattern files (pattern-bg.svg and border-pattern.svg) are already included and don't need to be replaced.

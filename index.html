@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naik's Traditional Foods - Authentic Indian Flavors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Naik's</h1>
+                <p>Traditional Foods</p>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: url('images/hero-bg.svg');">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Authentic Indian Flavors</h2>
+                <p>Bringing the rich taste of traditional Indian cuisine to your doorstep</p>
+                <a href="#products" class="btn">Explore Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="decorative-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/store-front.svg" alt="Naik's Traditional Foods Store">
+                </div>
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 1985 by the Naik family, our store began as a small venture to share authentic family recipes with the local community. What started as a modest shop in the heart of Mumbai has now grown into a beloved destination for food enthusiasts seeking genuine Indian flavors.</p>
+                    <p>At Naik's Traditional Foods, we take pride in preserving age-old recipes and cooking techniques passed down through generations. Every product in our store is crafted with care, using premium ingredients sourced from trusted farmers across India.</p>
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Authenticity in every flavor</li>
+                        <li><i class="fas fa-check-circle"></i> Quality ingredients with no compromises</li>
+                        <li><i class="fas fa-check-circle"></i> Sustainable packaging and practices</li>
+                        <li><i class="fas fa-check-circle"></i> Supporting local farmers and communities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <div class="decorative-line"></div>
+            </div>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="snacks">Snacks</button>
+                <button class="category-btn" data-category="spices">Spices</button>
+                <button class="category-btn" data-category="grains">Grains</button>
+                <button class="category-btn" data-category="pickles">Pickles</button>
+            </div>
+            <div class="product-grid">
+                <!-- Snacks -->
+                <div class="product-card" data-category="snacks">
+                    <div class="product-image">
+                        <img src="images/products/chakli.jpg" alt="Chakli">
+                    </div>
+                    <div class="product-info">
+                        <h3>Chakli</h3>
+                        <p>Crispy spiral-shaped snack made from rice flour and gram flour, seasoned with spices.</p>
+                        <div class="product-price">₹180 <span>per 250g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="snacks">
+                    <div class="product-image">
+                        <img src="images/products/chivda.jpg" alt="Chivda">
+                    </div>
+                    <div class="product-info">
+                        <h3>Chivda</h3>
+                        <p>A savory mix of flattened rice, nuts, and spices - perfect tea-time snack.</p>
+                        <div class="product-price">₹150 <span>per 200g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="snacks">
+                    <div class="product-image">
+                        <img src="images/products/mathri.jpg" alt="Mathri">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mathri</h3>
+                        <p>Flaky, crisp savory crackers made with wheat flour and aromatic spices.</p>
+                        <div class="product-price">₹120 <span>per 200g</span></div>
+                    </div>
+                </div>
+
+                <!-- Spices -->
+                <div class="product-card" data-category="spices">
+                    <div class="product-image">
+                        <img src="images/products/garam-masala.jpg" alt="Garam Masala">
+                    </div>
+                    <div class="product-info">
+                        <h3>Garam Masala</h3>
+                        <p>Homemade blend of ground spices used as a base in many Indian dishes.</p>
+                        <div class="product-price">₹220 <span>per 100g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="spices">
+                    <div class="product-image">
+                        <img src="images/products/turmeric.jpg" alt="Organic Turmeric">
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Turmeric</h3>
+                        <p>Pure, organically grown turmeric with high curcumin content.</p>
+                        <div class="product-price">₹180 <span>per 100g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="spices">
+                    <div class="product-image">
+                        <img src="images/products/chili-powder.jpg" alt="Red Chili Powder">
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Chili Powder</h3>
+                        <p>Freshly ground red chilies with the perfect balance of heat and flavor.</p>
+                        <div class="product-price">₹150 <span>per 100g</span></div>
+                    </div>
+                </div>
+
+                <!-- Grains -->
+                <div class="product-card" data-category="grains">
+                    <div class="product-image">
+                        <img src="images/products/basmati.jpg" alt="Basmati Rice">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Basmati Rice</h3>
+                        <p>Aged, long-grain aromatic rice from the foothills of the Himalayas.</p>
+                        <div class="product-price">₹280 <span>per kg</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="grains">
+                    <div class="product-image">
+                        <img src="images/products/toor-dal.jpg" alt="Toor Dal">
+                    </div>
+                    <div class="product-info">
+                        <h3>Toor Dal</h3>
+                        <p>Split pigeon peas, a staple in Indian households for making dal.</p>
+                        <div class="product-price">₹160 <span>per 500g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="grains">
+                    <div class="product-image">
+                        <img src="images/products/rava.jpg" alt="Rava/Sooji">
+                    </div>
+                    <div class="product-info">
+                        <h3>Rava/Sooji</h3>
+                        <p>Semolina made from durum wheat, used in various sweet and savory dishes.</p>
+                        <div class="product-price">₹90 <span>per 500g</span></div>
+                    </div>
+                </div>
+
+                <!-- Pickles -->
+                <div class="product-card" data-category="pickles">
+                    <div class="product-image">
+                        <img src="images/products/mango-pickle.jpg" alt="Mango Pickle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mango Pickle</h3>
+                        <p>Traditional spicy mango pickle made with raw mangoes and aromatic spices.</p>
+                        <div class="product-price">₹250 <span>per 250g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="pickles">
+                    <div class="product-image">
+                        <img src="images/products/lemon-pickle.jpg" alt="Lemon Pickle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Lemon Pickle</h3>
+                        <p>Tangy and spicy pickle made with fresh lemons and a blend of spices.</p>
+                        <div class="product-price">₹220 <span>per 250g</span></div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="pickles">
+                    <div class="product-image">
+                        <img src="images/products/mixed-pickle.jpg" alt="Mixed Vegetable Pickle">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mixed Vegetable Pickle</h3>
+                        <p>A delicious mix of carrots, turnips, and cauliflower in a spicy brine.</p>
+                        <div class="product-price">₹230 <span>per 250g</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Testimonials</h2>
+                <div class="decorative-line"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"I've been buying spices from Naik's for over 10 years now. Their garam masala is unmatched in flavor and freshness. It's like having a piece of authentic India in my kitchen!"</p>
+                        <div class="testimonial-author">
+                            <h4>Priya Sharma</h4>
+                            <p>Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The homemade pickles from Naik's remind me of my grandmother's recipes. The taste is nostalgic and brings back so many childhood memories. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <h4>Rajesh Patel</h4>
+                            <p>Food Enthusiast</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"As someone who runs a small catering business, I rely on quality ingredients. Naik's has never disappointed me with their premium rice and lentils. The consistency in quality is remarkable."</p>
+                        <div class="testimonial-author">
+                            <h4>Anita Desai</h4>
+                            <p>Local Caterer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="decorative-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Our Store</h3>
+                            <p>123 Spice Market Lane, <br>Mumbai, Maharashtra 400001</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+91 98765 43210</p>
+                            <p>+91 22 2345 6789</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                            <p>Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/919876543210" target="_blank">Message us on WhatsApp</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Naik's</h2>
+                    <p>Traditional Foods</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Naik's Traditional Foods. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
